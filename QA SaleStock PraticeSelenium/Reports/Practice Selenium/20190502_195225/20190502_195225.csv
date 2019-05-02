@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Practice Selenium,Firefox 61.0,,,2019-05-02 19:52:29,2019-05-02 19:54:24,1m - 55.089s,FAILED
+,,,,,,,
+Test Cases/Buy 1 product,Firefox 61.0,memberi data salah saat input comment,,2019-05-02 19:52:30,2019-05-02 19:53:21,51.181s,PASSED
+"openBrowser("""")",Firefox 61.0,,,2019-05-02 19:52:31,2019-05-02 19:52:42,11.157s,PASSED
+"navigateToUrl(""http://www.practiceselenium.com/"")",Firefox 61.0,,,2019-05-02 19:52:42,2019-05-02 19:52:56,13.737s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome/a_Menu""))",Firefox 61.0,,,2019-05-02 19:52:56,2019-05-02 19:53:07,10.892s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/span_Check Out""))",Firefox 61.0,,,2019-05-02 19:53:07,2019-05-02 19:53:18,10.925s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_E-mail_email""), ""lukasfelano@gmail.com"")",Firefox 61.0,,,2019-05-02 19:53:18,2019-05-02 19:53:18,0.108s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Name_name""), ""lukas"")",Firefox 61.0,,,2019-05-02 19:53:18,2019-05-02 19:53:18,0.051s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/textarea_Address_address""), ""jl. pramuka"")",Firefox 61.0,,,2019-05-02 19:53:18,2019-05-02 19:53:18,0.060s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club""), ""Visa"", true)",Firefox 61.0,,,2019-05-02 19:53:18,2019-05-02 19:53:18,0.454s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Card Number_card_number""), ""431236561"")",Firefox 61.0,,,2019-05-02 19:53:18,2019-05-02 19:53:18,0.051s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name""), ""Lukas Felano"")",Firefox 61.0,,,2019-05-02 19:53:18,2019-05-02 19:53:18,0.054s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Verification Code_verification_code""), ""94213"")",Firefox 61.0,,,2019-05-02 19:53:18,2019-05-02 19:53:19,0.051s,PASSED
+"click(findTestObject(""Object Repository/Page_Check Out/button_Place Order""))",Firefox 61.0,,,2019-05-02 19:53:19,2019-05-02 19:53:19,0.693s,PASSED
+closeBrowser(),Firefox 61.0,,,2019-05-02 19:53:19,2019-05-02 19:53:21,1.759s,PASSED
+,,,,,,,
+Test Cases/Input Comment,Firefox 61.0,memberikan masukan ke dalam website,,2019-05-02 19:53:21,2019-05-02 19:54:22,1m - 1.353s,FAILED
+"openBrowser("""")",Firefox 61.0,,,2019-05-02 19:53:21,2019-05-02 19:53:27,6.057s,PASSED
+"navigateToUrl(""http://www.practiceselenium.com/"")",Firefox 61.0,,,2019-05-02 19:53:27,2019-05-02 19:53:40,12.738s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome/a_Lets Talk Tea""))",Firefox 61.0,,,2019-05-02 19:53:40,2019-05-02 19:53:51,10.933s,PASSED
+"setText(findTestObject(""Object Repository/Page_Lets Talk Tea/input__name""), ""lukas"")",Firefox 61.0,,,2019-05-02 19:53:51,2019-05-02 19:53:51,0.094s,PASSED
+"setText(findTestObject(""Object Repository/Page_Lets Talk Tea/input__email""), ""lukasfelano@gmail.com"")",Firefox 61.0,,,2019-05-02 19:53:51,2019-05-02 19:53:51,0.129s,PASSED
+"setText(findTestObject(""Object Repository/Page_Lets Talk Tea/input__subject""), ""tanya"")",Firefox 61.0,,,2019-05-02 19:53:51,2019-05-02 19:53:51,0.085s,PASSED
+"setText(findTestObject(""Object Repository/Page_Lets Talk Tea/textarea__message""), ""apakah ada teh tuk diet?"")",Firefox 61.0,,,2019-05-02 19:53:51,2019-05-02 19:53:51,0.139s,PASSED
+"click(findTestObject(""Object Repository/Page_Lets Talk Tea/input__form-submit""))",Firefox 61.0,,,2019-05-02 19:53:51,2019-05-02 19:54:22,30.959s,FAILED

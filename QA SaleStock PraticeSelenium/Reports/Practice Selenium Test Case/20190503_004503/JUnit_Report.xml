@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Practice Selenium Test Case" time="301" tests="4" failures="1" errors="0">
+   <testsuite name="Practice Selenium Test Case" tests="4" failures="1" errors="0" time="301" timestamp="2019-05-03 00:45:15" hostname="ASUS - Lukas_Felano_N" id="Test Suites/Practice Selenium Test Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Hasil\\QA SaleStock PraticeSelenium\\Reports\\Practice Selenium Test Case\\20190503_004503"/>
+         <property name="logFiles" value="F:\\Hasil\\QA SaleStock PraticeSelenium\\Reports\\Practice Selenium Test Case\\20190503_004503\\execution0.log"/>
+         <property name="attachments" value="F:\\Hasil\\QA SaleStock PraticeSelenium\\Reports\\Practice Selenium Test Case\\20190503_004503\\1556819412287.png"/>
+         <property name="hostName" value="ASUS - Lukas_Felano_N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.43.97"/>
+         <property name="sessionId" value="c81a1d79-ab90-44d7-8bdc-566e88278b83"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Buy 1 product" classname="Test Cases/Buy 1 product" status="PASSED">
+         <system-out><![CDATA[2019-05-03 00:45:15 - [TEST_CASE][PASSED] - Test Cases/Buy 1 product: Test Cases/Buy 1 product
+
+2019-05-03 00:45:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 00:45:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 00:45:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-03 00:45:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 00:45:57 - [TEST_STEP][PASSED] - navigateToUrl("http://www.practiceselenium.com/"): Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:46:03 - [MESSAGE][PASSED] - Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:46:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome/a_Menu")): Object: 'Object Repository/Page_Welcome/a_Menu' is clicked on
+
+2019-05-03 00:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome/a_Menu' is clicked on
+
+2019-05-03 00:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Menu/span_Check Out")): Object: 'Object Repository/Page_Menu/span_Check Out' is clicked on
+
+2019-05-03 00:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Menu/span_Check Out' is clicked on
+
+2019-05-03 00:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_E-mail_email"), Email): Text 'lukas.felano@ti.ukdw.ac.id' is set on object 'Object Repository/Page_Check Out/input_E-mail_email'
+
+2019-05-03 00:46:19 - [MESSAGE][PASSED] - Text 'lukas.felano@ti.ukdw.ac.id' is set on object 'Object Repository/Page_Check Out/input_E-mail_email'
+
+2019-05-03 00:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Name_name"), Name): Text 'Lukas' is set on object 'Object Repository/Page_Check Out/input_Name_name'
+
+2019-05-03 00:46:19 - [MESSAGE][PASSED] - Text 'Lukas' is set on object 'Object Repository/Page_Check Out/input_Name_name'
+
+2019-05-03 00:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/textarea_Address_address"), address): Text 'jl.ora' is set on object 'Object Repository/Page_Check Out/textarea_Address_address'
+
+2019-05-03 00:46:20 - [MESSAGE][PASSED] - Text 'jl.ora' is set on object 'Object Repository/Page_Check Out/textarea_Address_address'
+
+2019-05-03 00:46:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club"), type, true): All options with value 'Visa' are selected in object 'Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'  using regular expression
+
+2019-05-03 00:46:21 - [MESSAGE][PASSED] - All options with value 'Visa' are selected in object 'Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'  using regular expression
+
+2019-05-03 00:46:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Card Number_card_number"), number): Text '12345678912' is set on object 'Object Repository/Page_Check Out/input_Card Number_card_number'
+
+2019-05-03 00:46:21 - [MESSAGE][PASSED] - Text '12345678912' is set on object 'Object Repository/Page_Check Out/input_Card Number_card_number'
+
+2019-05-03 00:46:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name"), holder): Text 'Lukas Felano' is set on object 'Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'
+
+2019-05-03 00:46:21 - [MESSAGE][PASSED] - Text 'Lukas Felano' is set on object 'Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'
+
+2019-05-03 00:46:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Verification Code_verification_code"), code): Text '538026' is set on object 'Object Repository/Page_Check Out/input_Verification Code_verification_code'
+
+2019-05-03 00:46:21 - [MESSAGE][PASSED] - Text '538026' is set on object 'Object Repository/Page_Check Out/input_Verification Code_verification_code'
+
+2019-05-03 00:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Check Out/button_Place Order")): Object: 'Object Repository/Page_Check Out/button_Place Order' is clicked on
+
+2019-05-03 00:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Check Out/button_Place Order' is clicked on
+
+2019-05-03 00:46:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 00:46:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buy 1 product" classname="Test Cases/Buy 1 product" status="PASSED">
+         <system-out><![CDATA[2019-05-03 00:46:24 - [TEST_CASE][PASSED] - Test Cases/Buy 1 product: Test Cases/Buy 1 product
+
+2019-05-03 00:46:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 00:46:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 00:46:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 00:46:33 - [TEST_STEP][PASSED] - navigateToUrl("http://www.practiceselenium.com/"): Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:46:46 - [MESSAGE][PASSED] - Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:46:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome/a_Menu")): Object: 'Object Repository/Page_Welcome/a_Menu' is clicked on
+
+2019-05-03 00:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome/a_Menu' is clicked on
+
+2019-05-03 00:46:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Menu/span_Check Out")): Object: 'Object Repository/Page_Menu/span_Check Out' is clicked on
+
+2019-05-03 00:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Menu/span_Check Out' is clicked on
+
+2019-05-03 00:47:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_E-mail_email"), Email): Text 'lukasgogo@gmail' is set on object 'Object Repository/Page_Check Out/input_E-mail_email'
+
+2019-05-03 00:47:08 - [MESSAGE][PASSED] - Text 'lukasgogo@gmail' is set on object 'Object Repository/Page_Check Out/input_E-mail_email'
+
+2019-05-03 00:47:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Name_name"), Name): Text 'Lukas' is set on object 'Object Repository/Page_Check Out/input_Name_name'
+
+2019-05-03 00:47:08 - [MESSAGE][PASSED] - Text 'Lukas' is set on object 'Object Repository/Page_Check Out/input_Name_name'
+
+2019-05-03 00:47:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/textarea_Address_address"), address): Text 'jl. Bener' is set on object 'Object Repository/Page_Check Out/textarea_Address_address'
+
+2019-05-03 00:47:09 - [MESSAGE][PASSED] - Text 'jl. Bener' is set on object 'Object Repository/Page_Check Out/textarea_Address_address'
+
+2019-05-03 00:47:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club"), type, true): All options with value 'Mastercard' are selected in object 'Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'  using regular expression
+
+2019-05-03 00:47:09 - [MESSAGE][PASSED] - All options with value 'Mastercard' are selected in object 'Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'  using regular expression
+
+2019-05-03 00:47:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Card Number_card_number"), number): Text '23123512553' is set on object 'Object Repository/Page_Check Out/input_Card Number_card_number'
+
+2019-05-03 00:47:09 - [MESSAGE][PASSED] - Text '23123512553' is set on object 'Object Repository/Page_Check Out/input_Card Number_card_number'
+
+2019-05-03 00:47:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name"), holder): Text 'Lukas Felano' is set on object 'Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'
+
+2019-05-03 00:47:09 - [MESSAGE][PASSED] - Text 'Lukas Felano' is set on object 'Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'
+
+2019-05-03 00:47:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Verification Code_verification_code"), code): Text '241235' is set on object 'Object Repository/Page_Check Out/input_Verification Code_verification_code'
+
+2019-05-03 00:47:09 - [MESSAGE][PASSED] - Text '241235' is set on object 'Object Repository/Page_Check Out/input_Verification Code_verification_code'
+
+2019-05-03 00:47:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Check Out/button_Place Order")): Object: 'Object Repository/Page_Check Out/button_Place Order' is clicked on
+
+2019-05-03 00:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Check Out/button_Place Order' is clicked on
+
+2019-05-03 00:47:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 00:47:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buy 1 product" classname="Test Cases/Buy 1 product" status="PASSED">
+         <system-out><![CDATA[2019-05-03 00:47:24 - [TEST_CASE][PASSED] - Test Cases/Buy 1 product: Test Cases/Buy 1 product
+
+2019-05-03 00:47:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 00:47:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 00:47:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 00:47:36 - [TEST_STEP][PASSED] - navigateToUrl("http://www.practiceselenium.com/"): Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:47:49 - [MESSAGE][PASSED] - Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:47:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome/a_Menu")): Object: 'Object Repository/Page_Welcome/a_Menu' is clicked on
+
+2019-05-03 00:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome/a_Menu' is clicked on
+
+2019-05-03 00:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Menu/span_Check Out")): Object: 'Object Repository/Page_Menu/span_Check Out' is clicked on
+
+2019-05-03 00:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Menu/span_Check Out' is clicked on
+
+2019-05-03 00:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_E-mail_email"), Email): Text '' is set on object 'Object Repository/Page_Check Out/input_E-mail_email'
+
+2019-05-03 00:48:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Check Out/input_E-mail_email'
+
+2019-05-03 00:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Name_name"), Name): Text '' is set on object 'Object Repository/Page_Check Out/input_Name_name'
+
+2019-05-03 00:48:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Check Out/input_Name_name'
+
+2019-05-03 00:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/textarea_Address_address"), address): Text '' is set on object 'Object Repository/Page_Check Out/textarea_Address_address'
+
+2019-05-03 00:48:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Check Out/textarea_Address_address'
+
+2019-05-03 00:48:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club"), type, true): All options with value '' are selected in object 'Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'  using regular expression
+
+2019-05-03 00:48:13 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'  using regular expression
+
+2019-05-03 00:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Card Number_card_number"), number): Text '' is set on object 'Object Repository/Page_Check Out/input_Card Number_card_number'
+
+2019-05-03 00:48:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Check Out/input_Card Number_card_number'
+
+2019-05-03 00:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name"), holder): Text '' is set on object 'Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'
+
+2019-05-03 00:48:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'
+
+2019-05-03 00:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Verification Code_verification_code"), code): Text '' is set on object 'Object Repository/Page_Check Out/input_Verification Code_verification_code'
+
+2019-05-03 00:48:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Check Out/input_Verification Code_verification_code'
+
+2019-05-03 00:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Check Out/button_Place Order")): Object: 'Object Repository/Page_Check Out/button_Place Order' is clicked on
+
+2019-05-03 00:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Check Out/button_Place Order' is clicked on
+
+2019-05-03 00:48:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 00:48:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buy 1 product" classname="Test Cases/Buy 1 product" status="PASSED">
+         <system-out><![CDATA[2019-05-03 00:48:17 - [TEST_CASE][PASSED] - Test Cases/Buy 1 product: Test Cases/Buy 1 product
+
+2019-05-03 00:48:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 00:48:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 00:48:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 00:48:29 - [TEST_STEP][PASSED] - navigateToUrl("http://www.practiceselenium.com/"): Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:48:42 - [MESSAGE][PASSED] - Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome/a_Menu")): Object: 'Object Repository/Page_Welcome/a_Menu' is clicked on
+
+2019-05-03 00:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome/a_Menu' is clicked on
+
+2019-05-03 00:48:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Menu/span_Check Out")): Object: 'Object Repository/Page_Menu/span_Check Out' is clicked on
+
+2019-05-03 00:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Menu/span_Check Out' is clicked on
+
+2019-05-03 00:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_E-mail_email"), Email): Text 'lukas@woke' is set on object 'Object Repository/Page_Check Out/input_E-mail_email'
+
+2019-05-03 00:49:04 - [MESSAGE][PASSED] - Text 'lukas@woke' is set on object 'Object Repository/Page_Check Out/input_E-mail_email'
+
+2019-05-03 00:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Name_name"), Name): Text 'Lukas' is set on object 'Object Repository/Page_Check Out/input_Name_name'
+
+2019-05-03 00:49:04 - [MESSAGE][PASSED] - Text 'Lukas' is set on object 'Object Repository/Page_Check Out/input_Name_name'
+
+2019-05-03 00:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/textarea_Address_address"), address): Text '' is set on object 'Object Repository/Page_Check Out/textarea_Address_address'
+
+2019-05-03 00:49:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Check Out/textarea_Address_address'
+
+2019-05-03 00:49:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club"), type, true): All options with value 'Visa' are selected in object 'Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'  using regular expression
+
+2019-05-03 00:49:05 - [MESSAGE][PASSED] - All options with value 'Visa' are selected in object 'Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'  using regular expression
+
+2019-05-03 00:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Card Number_card_number"), number): Text '52019498523' is set on object 'Object Repository/Page_Check Out/input_Card Number_card_number'
+
+2019-05-03 00:49:05 - [MESSAGE][PASSED] - Text '52019498523' is set on object 'Object Repository/Page_Check Out/input_Card Number_card_number'
+
+2019-05-03 00:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name"), holder): Text 'Lukas' is set on object 'Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'
+
+2019-05-03 00:49:05 - [MESSAGE][PASSED] - Text 'Lukas' is set on object 'Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'
+
+2019-05-03 00:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Check Out/input_Verification Code_verification_code"), code): Text '231526' is set on object 'Object Repository/Page_Check Out/input_Verification Code_verification_code'
+
+2019-05-03 00:49:05 - [MESSAGE][PASSED] - Text '231526' is set on object 'Object Repository/Page_Check Out/input_Verification Code_verification_code'
+
+2019-05-03 00:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Check Out/button_Place Order")): Object: 'Object Repository/Page_Check Out/button_Place Order' is clicked on
+
+2019-05-03 00:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Check Out/button_Place Order' is clicked on
+
+2019-05-03 00:49:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 00:49:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Input Comment" classname="Test Cases/Input Comment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Input Comment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Input Comment.run(Input Comment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556819103656.run(TempTestSuite1556819103656.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lets Talk Tea/input__form-submit' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1556736708350.run(Script1556736708350.groovy:30)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-03 00:49:08 - [TEST_CASE][FAILED] - Test Cases/Input Comment: Test Cases/Input Comment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Input Comment.run(Input Comment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556819103656.run(TempTestSuite1556819103656.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lets Talk Tea/input__form-submit' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1556736708350.run(Script1556736708350.groovy:30)
+	... 13 more
+
+
+2019-05-03 00:49:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 00:49:08 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 00:49:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 00:49:17 - [TEST_STEP][PASSED] - navigateToUrl("http://www.practiceselenium.com/"): Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:49:29 - [MESSAGE][PASSED] - Navigate to 'http://www.practiceselenium.com/' successfully
+
+2019-05-03 00:49:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome/a_Lets Talk Tea")): Object: 'Object Repository/Page_Welcome/a_Lets Talk Tea' is clicked on
+
+2019-05-03 00:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome/a_Lets Talk Tea' is clicked on
+
+2019-05-03 00:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Lets Talk Tea/input__name"), "lukas"): Text 'lukas' is set on object 'Object Repository/Page_Lets Talk Tea/input__name'
+
+2019-05-03 00:49:41 - [MESSAGE][PASSED] - Text 'lukas' is set on object 'Object Repository/Page_Lets Talk Tea/input__name'
+
+2019-05-03 00:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Lets Talk Tea/input__email"), "lukasfelano@gmail.com"): Text 'lukasfelano@gmail.com' is set on object 'Object Repository/Page_Lets Talk Tea/input__email'
+
+2019-05-03 00:49:41 - [MESSAGE][PASSED] - Text 'lukasfelano@gmail.com' is set on object 'Object Repository/Page_Lets Talk Tea/input__email'
+
+2019-05-03 00:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Lets Talk Tea/input__subject"), "tanya"): Text 'tanya' is set on object 'Object Repository/Page_Lets Talk Tea/input__subject'
+
+2019-05-03 00:49:41 - [MESSAGE][PASSED] - Text 'tanya' is set on object 'Object Repository/Page_Lets Talk Tea/input__subject'
+
+2019-05-03 00:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Lets Talk Tea/textarea__message"), "apakah ada teh tuk diet?"): Text 'apakah ada teh tuk diet?' is set on object 'Object Repository/Page_Lets Talk Tea/textarea__message'
+
+2019-05-03 00:49:41 - [MESSAGE][PASSED] - Text 'apakah ada teh tuk diet?' is set on object 'Object Repository/Page_Lets Talk Tea/textarea__message'
+
+2019-05-03 00:49:41 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Lets Talk Tea/input__form-submit")): Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Input Comment.run(Input Comment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556819103656.run(TempTestSuite1556819103656.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lets Talk Tea/input__form-submit' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1556736708350.run(Script1556736708350.groovy:30)
+	... 13 more
+)
+
+2019-05-03 00:50:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-03 00:50:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Input Comment.run(Input Comment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556819103656.run(TempTestSuite1556819103656.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lets Talk Tea/input__form-submit' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1556736708350.run(Script1556736708350.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|F:\\Hasil\\QA SaleStock PraticeSelenium\\Reports\\Practice Selenium Test Case\\20190503_004503\\1556819412287.png]]]]></system-out>
+         <system-err><![CDATA[2019-05-03 00:49:08 - [TEST_CASE][FAILED] - Test Cases/Input Comment: Test Cases/Input Comment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Input Comment.run(Input Comment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556819103656.run(TempTestSuite1556819103656.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lets Talk Tea/input__form-submit' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1556736708350.run(Script1556736708350.groovy:30)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-03 00:45:15 - [TEST_SUITE][FAILED] - Practice Selenium Test Case: Test Cases/Input Comment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Input Comment.run(Input Comment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556819103656.run(TempTestSuite1556819103656.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lets Talk Tea/input__form-submit' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1556736708350.run(Script1556736708350.groovy:30)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-05-03 00:45:15 - [TEST_SUITE][FAILED] - Practice Selenium Test Case: Test Cases/Input Comment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lets Talk Tea/input__form-submit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Input Comment.run(Input Comment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556819103656.run(TempTestSuite1556819103656.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lets Talk Tea/input__form-submit' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1556736708350.run(Script1556736708350.groovy:30)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

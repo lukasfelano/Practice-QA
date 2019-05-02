@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Practice Selenium Test Case,Firefox 61.0,,,2019-05-03 00:45:15,2019-05-03 00:50:16,5m - 1.796s,FAILED
+,,,,,,,
+Test Cases/Buy 1 product,Firefox 61.0,memberi data salah saat input comment,,2019-05-03 00:45:15,2019-05-03 00:46:24,1m - 8.852s,PASSED
+"openBrowser("""")",Firefox 61.0,,,2019-05-03 00:45:17,2019-05-03 00:45:57,40.507s,PASSED
+"navigateToUrl(""http://www.practiceselenium.com/"")",Firefox 61.0,,,2019-05-03 00:45:57,2019-05-03 00:46:03,5.671s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome/a_Menu""))",Firefox 61.0,,,2019-05-03 00:46:03,2019-05-03 00:46:18,15.090s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/span_Check Out""))",Firefox 61.0,,,2019-05-03 00:46:18,2019-05-03 00:46:19,0.928s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_E-mail_email""), Email)",Firefox 61.0,,,2019-05-03 00:46:19,2019-05-03 00:46:19,0.338s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Name_name""), Name)",Firefox 61.0,,,2019-05-03 00:46:19,2019-05-03 00:46:19,0.205s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/textarea_Address_address""), address)",Firefox 61.0,,,2019-05-03 00:46:19,2019-05-03 00:46:20,0.304s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club""), type, true)",Firefox 61.0,,,2019-05-03 00:46:20,2019-05-03 00:46:21,1.035s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Card Number_card_number""), number)",Firefox 61.0,,,2019-05-03 00:46:21,2019-05-03 00:46:21,0.140s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name""), holder)",Firefox 61.0,,,2019-05-03 00:46:21,2019-05-03 00:46:21,0.137s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Verification Code_verification_code""), code)",Firefox 61.0,,,2019-05-03 00:46:21,2019-05-03 00:46:21,0.086s,PASSED
+"click(findTestObject(""Object Repository/Page_Check Out/button_Place Order""))",Firefox 61.0,,,2019-05-03 00:46:21,2019-05-03 00:46:21,0.430s,PASSED
+closeBrowser(),Firefox 61.0,,,2019-05-03 00:46:21,2019-05-03 00:46:24,2.786s,PASSED
+,,,,,,,
+Test Cases/Buy 1 product,Firefox 61.0,memberi data salah saat input comment,,2019-05-03 00:46:24,2019-05-03 00:47:24,59.351s,PASSED
+"openBrowser("""")",Firefox 61.0,,,2019-05-03 00:46:24,2019-05-03 00:46:33,9.035s,PASSED
+"navigateToUrl(""http://www.practiceselenium.com/"")",Firefox 61.0,,,2019-05-03 00:46:33,2019-05-03 00:46:46,13.097s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome/a_Menu""))",Firefox 61.0,,,2019-05-03 00:46:46,2019-05-03 00:46:57,10.691s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/span_Check Out""))",Firefox 61.0,,,2019-05-03 00:46:57,2019-05-03 00:47:08,11.082s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_E-mail_email""), Email)",Firefox 61.0,,,2019-05-03 00:47:08,2019-05-03 00:47:08,0.130s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Name_name""), Name)",Firefox 61.0,,,2019-05-03 00:47:08,2019-05-03 00:47:08,0.077s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/textarea_Address_address""), address)",Firefox 61.0,,,2019-05-03 00:47:08,2019-05-03 00:47:09,0.101s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club""), type, true)",Firefox 61.0,,,2019-05-03 00:47:09,2019-05-03 00:47:09,0.511s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Card Number_card_number""), number)",Firefox 61.0,,,2019-05-03 00:47:09,2019-05-03 00:47:09,0.075s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name""), holder)",Firefox 61.0,,,2019-05-03 00:47:09,2019-05-03 00:47:09,0.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Verification Code_verification_code""), code)",Firefox 61.0,,,2019-05-03 00:47:09,2019-05-03 00:47:09,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_Check Out/button_Place Order""))",Firefox 61.0,,,2019-05-03 00:47:09,2019-05-03 00:47:20,10.741s,PASSED
+closeBrowser(),Firefox 61.0,,,2019-05-03 00:47:20,2019-05-03 00:47:24,3.565s,PASSED
+,,,,,,,
+Test Cases/Buy 1 product,Firefox 61.0,memberi data salah saat input comment,,2019-05-03 00:47:24,2019-05-03 00:48:17,53.706s,PASSED
+"openBrowser("""")",Firefox 61.0,,,2019-05-03 00:47:24,2019-05-03 00:47:36,11.959s,PASSED
+"navigateToUrl(""http://www.practiceselenium.com/"")",Firefox 61.0,,,2019-05-03 00:47:36,2019-05-03 00:47:49,13.898s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome/a_Menu""))",Firefox 61.0,,,2019-05-03 00:47:49,2019-05-03 00:48:01,11.809s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/span_Check Out""))",Firefox 61.0,,,2019-05-03 00:48:01,2019-05-03 00:48:12,10.825s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_E-mail_email""), Email)",Firefox 61.0,,,2019-05-03 00:48:12,2019-05-03 00:48:12,0.177s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Name_name""), Name)",Firefox 61.0,,,2019-05-03 00:48:12,2019-05-03 00:48:12,0.103s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/textarea_Address_address""), address)",Firefox 61.0,,,2019-05-03 00:48:12,2019-05-03 00:48:12,0.084s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club""), type, true)",Firefox 61.0,,,2019-05-03 00:48:12,2019-05-03 00:48:13,0.504s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Card Number_card_number""), number)",Firefox 61.0,,,2019-05-03 00:48:13,2019-05-03 00:48:13,0.075s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name""), holder)",Firefox 61.0,,,2019-05-03 00:48:13,2019-05-03 00:48:13,0.048s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Verification Code_verification_code""), code)",Firefox 61.0,,,2019-05-03 00:48:13,2019-05-03 00:48:13,0.057s,PASSED
+"click(findTestObject(""Object Repository/Page_Check Out/button_Place Order""))",Firefox 61.0,,,2019-05-03 00:48:13,2019-05-03 00:48:14,0.747s,PASSED
+closeBrowser(),Firefox 61.0,,,2019-05-03 00:48:14,2019-05-03 00:48:17,3.390s,PASSED
+,,,,,,,
+Test Cases/Buy 1 product,Firefox 61.0,memberi data salah saat input comment,,2019-05-03 00:48:17,2019-05-03 00:49:08,50.651s,PASSED
+"openBrowser("""")",Firefox 61.0,,,2019-05-03 00:48:17,2019-05-03 00:48:29,11.765s,PASSED
+"navigateToUrl(""http://www.practiceselenium.com/"")",Firefox 61.0,,,2019-05-03 00:48:29,2019-05-03 00:48:42,13.051s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome/a_Menu""))",Firefox 61.0,,,2019-05-03 00:48:42,2019-05-03 00:48:53,10.874s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/span_Check Out""))",Firefox 61.0,,,2019-05-03 00:48:53,2019-05-03 00:49:04,11.274s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_E-mail_email""), Email)",Firefox 61.0,,,2019-05-03 00:49:04,2019-05-03 00:49:04,0.085s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Name_name""), Name)",Firefox 61.0,,,2019-05-03 00:49:04,2019-05-03 00:49:04,0.056s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/textarea_Address_address""), address)",Firefox 61.0,,,2019-05-03 00:49:04,2019-05-03 00:49:05,0.056s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club""), type, true)",Firefox 61.0,,,2019-05-03 00:49:05,2019-05-03 00:49:05,0.442s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Card Number_card_number""), number)",Firefox 61.0,,,2019-05-03 00:49:05,2019-05-03 00:49:05,0.059s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name""), holder)",Firefox 61.0,,,2019-05-03 00:49:05,2019-05-03 00:49:05,0.048s,PASSED
+"setText(findTestObject(""Object Repository/Page_Check Out/input_Verification Code_verification_code""), code)",Firefox 61.0,,,2019-05-03 00:49:05,2019-05-03 00:49:05,0.050s,PASSED
+"click(findTestObject(""Object Repository/Page_Check Out/button_Place Order""))",Firefox 61.0,,,2019-05-03 00:49:05,2019-05-03 00:49:06,0.765s,PASSED
+closeBrowser(),Firefox 61.0,,,2019-05-03 00:49:06,2019-05-03 00:49:08,2.083s,PASSED
+,,,,,,,
+Test Cases/Input Comment,Firefox 61.0,memberikan masukan ke dalam website,,2019-05-03 00:49:08,2019-05-03 00:50:13,1m - 4.623s,FAILED
+"openBrowser("""")",Firefox 61.0,,,2019-05-03 00:49:08,2019-05-03 00:49:17,9.087s,PASSED
+"navigateToUrl(""http://www.practiceselenium.com/"")",Firefox 61.0,,,2019-05-03 00:49:17,2019-05-03 00:49:29,11.812s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome/a_Lets Talk Tea""))",Firefox 61.0,,,2019-05-03 00:49:29,2019-05-03 00:49:41,11.338s,PASSED
+"setText(findTestObject(""Object Repository/Page_Lets Talk Tea/input__name""), ""lukas"")",Firefox 61.0,,,2019-05-03 00:49:41,2019-05-03 00:49:41,0.117s,PASSED
+"setText(findTestObject(""Object Repository/Page_Lets Talk Tea/input__email""), ""lukasfelano@gmail.com"")",Firefox 61.0,,,2019-05-03 00:49:41,2019-05-03 00:49:41,0.109s,PASSED
+"setText(findTestObject(""Object Repository/Page_Lets Talk Tea/input__subject""), ""tanya"")",Firefox 61.0,,,2019-05-03 00:49:41,2019-05-03 00:49:41,0.114s,PASSED
+"setText(findTestObject(""Object Repository/Page_Lets Talk Tea/textarea__message""), ""apakah ada teh tuk diet?"")",Firefox 61.0,,,2019-05-03 00:49:41,2019-05-03 00:49:41,0.148s,PASSED
+"click(findTestObject(""Object Repository/Page_Lets Talk Tea/input__form-submit""))",Firefox 61.0,,,2019-05-03 00:49:41,2019-05-03 00:50:13,31.709s,FAILED

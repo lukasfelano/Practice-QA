@@ -5,4 +5,53 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2c1a2e15-f91e-48e0-af10-4639b21e4cb3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59ffaf14-f8d7-41bc-9439-ebfbbd2263cf</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>283587db-bdfe-4b27-9661-18a636e3e6ed</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>253dc346-d037-44d6-8219-5808082dd40b</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d297e4b-83b8-4381-8afc-1065526aaa4d</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8c5c124b-ad7b-468b-a0ba-2b12006eca97</id>
+      <masked>false</masked>
+      <name>number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>50da29c0-47e4-4649-9ab6-ac359c605c9b</id>
+      <masked>false</masked>
+      <name>holder</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>11cb545e-dd1a-4310-88dc-cfff6ffb7ac3</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
 </TestCaseEntity>

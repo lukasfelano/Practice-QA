@@ -13,21 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+// open browser
+WebUI.openBrowser("www.practiceselenium.com")
 
-WebUI.navigateToUrl('http://www.practiceselenium.com/')
+// pindah menu
+WebUI.click(findTestObject('Object Repository/Page_Welcome/a_Menu'))
 
-WebUI.click(findTestObject('Object Repository/Page_Welcome/a_Lets Talk Tea'))
+// input data
+WebUI.setText(findTestObject('Object Repository/Page_Lets Talk Tea/input__email'), "lukasfelano@gmail.com")
+WebUI.setText(findTestObject('Object Repository/Page_Lets Talk Tea/input__name'), "Lukas Felano Nayoan")
+WebUI.setText(findTestObject('Object Repository/Page_Lets Talk Tea/input__subject'), "Kesehatan Teh")
+WebUI.setText(findTestObject('Object Repository/Page_Lets Talk Tea/textarea__message'), "Apakah ada teh yang bisa digunakan untuk diet?")
 
-WebUI.setText(findTestObject('Object Repository/Page_Lets Talk Tea/input__name'), 'lukas')
-
-WebUI.setText(findTestObject('Object Repository/Page_Lets Talk Tea/input__email'), 'lukasfelano@gmail.com')
-
-WebUI.setText(findTestObject('Object Repository/Page_Lets Talk Tea/input__subject'), 'tanya')
-
-WebUI.setText(findTestObject('Object Repository/Page_Lets Talk Tea/textarea__message'), 'apakah ada teh tuk diet?')
-
+// end Input
 WebUI.click(findTestObject('Object Repository/Page_Lets Talk Tea/input__form-submit'))
 
+// close
 WebUI.closeBrowser()
-

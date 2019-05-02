@@ -13,30 +13,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+// open browser
+WebUI.openBrowser("www.practiceselenium.com")
 
-WebUI.navigateToUrl('http://www.practiceselenium.com/')
-
+// pindah menu
 WebUI.click(findTestObject('Object Repository/Page_Welcome/a_Menu'))
 
+// pilih produk
 WebUI.click(findTestObject('Object Repository/Page_Menu/span_Check Out'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_E-mail_email'), Email)
+// input data
+WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_E-mail_email'), "lukasfelano@gmail.com")
+WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_Name_name'), "Lukas Felano Nayoan")
+WebUI.setText(findTestObject('Object Repository/Page_Check Out/textarea_Address_address'), "Jalan Pramuka no 1, Bantul")
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'),"Visa", true)
+WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_Card Number_card_number'), "4023839282959002")
+WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'), "Lukas Felano N")
+WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_Verification Code_verification_code'), "928491")
 
-WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_Name_name'), Name)
-
-WebUI.setText(findTestObject('Object Repository/Page_Check Out/textarea_Address_address'), address)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Check Out/select_Visa              Mastercard              American Express              Diners Club'), 
-    type, true)
-
-WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_Card Number_card_number'), number)
-
-WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_Cardholder Name_cardholder_name'), holder)
-
-WebUI.setText(findTestObject('Object Repository/Page_Check Out/input_Verification Code_verification_code'), code)
-
+// end Input
 WebUI.click(findTestObject('Object Repository/Page_Check Out/button_Place Order'))
 
+// close
 WebUI.closeBrowser()
-

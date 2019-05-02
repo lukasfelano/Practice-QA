@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Practice Selenium,,,,2019-05-02 19:48:49,2019-05-02 19:51:02,2m - 12.595s,FAILED
+,,,,,,,
+Test Cases/Buy 1 product,,memberi data salah saat input comment,,2019-05-02 19:48:50,2019-05-02 19:49:58,1m - 8.130s,FAILED
+"openBrowser("""")",,,,2019-05-02 19:48:50,2019-05-02 19:49:58,1m - 7.450s,FAILED
+,,,,,,,
+Test Cases/Input Comment,,memberikan masukan ke dalam website,,2019-05-02 19:49:58,2019-05-02 19:51:00,1m - 2.252s,FAILED
+"openBrowser("""")",,,,2019-05-02 19:49:59,2019-05-02 19:51:00,1m - 1.574s,FAILED
