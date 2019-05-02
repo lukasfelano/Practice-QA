@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>melakukan check out secara langsung</description>
+   <name>Pay without choose product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9db1662e-f423-447d-8750-06680bbbf305</testCaseGuid>
+</TestCaseEntity>

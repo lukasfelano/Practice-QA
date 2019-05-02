@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>memasukkan data yang salah atau palsu pada saat checkout</description>
+   <name>Buy product with wrong input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a845cd7e-34ff-4577-9097-c1b92755d262</testCaseGuid>
+</TestCaseEntity>

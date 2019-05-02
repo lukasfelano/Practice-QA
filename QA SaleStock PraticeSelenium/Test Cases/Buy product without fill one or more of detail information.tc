@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>waktu melakukan check out ada salah satu data yang belum dimasukan</description>
+   <name>Buy product without fill one or more of detail information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>204ed76f-50a2-4d14-8583-a06ba8a2afc6</testCaseGuid>
+</TestCaseEntity>

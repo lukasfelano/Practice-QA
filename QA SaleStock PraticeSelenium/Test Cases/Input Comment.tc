@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>memberikan masukan ke dalam website</description>
+   <name>Input Comment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8456c70-4b40-47ff-a50a-a60b4c28311a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>membeli 1 salah satu minuman dan membayar</description>
+   <name>Input comment wrong data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bbea4bd-7996-475a-afcd-c50e26c17445</testCaseGuid>
+</TestCaseEntity>
