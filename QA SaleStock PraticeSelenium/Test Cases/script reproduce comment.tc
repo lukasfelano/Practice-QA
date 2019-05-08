@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>reproduce bug in send email fiture</description>
+   <name>script reproduce comment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f962ffa8-86c2-475b-9b92-a81248da3a3b</testCaseGuid>
+</TestCaseEntity>

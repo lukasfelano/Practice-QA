@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>reproduce buy in buy test case</description>
+   <name>script reproduce buy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1ec781b-950e-42db-9c3e-2ec802c6559c</testCaseGuid>
+</TestCaseEntity>
